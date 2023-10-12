@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+header{
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
+nav.menu ul{
+    list-style-type: none;
+}
+nav.menu li{
+    display: inline-block;
+    padding: 0 8px;
+}
+nav.menu a{
+    color: white;
+}
+div.logo{
+    float: left;
+}
+div.clear{
+    clear: both;
+}
+nav.menu{
+    float: right;
+    position: relative;
+    top: 4px;
+}
+div.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+section.agendamentos{
+    padding:30px 0;
+}
+div.box-single-horario{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+}
+
+div.box-single-wraper{
+    padding: 10px;
+    background-color: white;
+}
